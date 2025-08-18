@@ -18,5 +18,7 @@ export default function Home() {
 
   if (currentUser) return null;
 
+
+  
   return <LoginPage />;
 }
