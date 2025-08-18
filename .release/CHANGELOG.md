@@ -1,3 +1,8 @@
+## 1.0.0-frontend-homol.3 (2025-08-18)
+
+* Merge branch 'dev' of https://github.com/johnesrom/my-app-redux into homol ([c9e1a09](https://github.com/johnesrom/my-app-redux/commit/c9e1a09))
+* feat: teste ([64c6ff6](https://github.com/johnesrom/my-app-redux/commit/64c6ff6))
+
 ## 1.0.0-frontend-homol.2 (2025-08-18)
 
 * Merge branch 'dev' into feat/adicionar-log ([49b2edc](https://github.com/johnesrom/my-app-redux/commit/49b2edc))
