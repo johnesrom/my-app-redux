@@ -17,16 +17,22 @@ plugins:
   - - "@semantic-release/commit-analyzer"
     - preset: conventionalcommits
       releaseRules:
+        - type: feat
+          release: minor
+        - type: fix
+          release: patch
+        - type: chore
+          release: false
         - type: docs
           release: false
         - type: style
           release: false
         - type: test
           release: false
-        - type: chore
+        - type: ci
           release: false
         - type: build
-          release: patch
+          release: false
   - - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
       presetConfig:
