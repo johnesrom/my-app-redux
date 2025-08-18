@@ -19,10 +19,7 @@ export default function LoginPage() {
       type: 'user/login',
       payload: {email, password}
     });
-
-    console.log([email, password]);
-    // Aqui você faria a validação de login
-    // router.push("/dashboard")
+    
   }
 
   return (

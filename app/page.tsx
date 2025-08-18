@@ -17,8 +17,6 @@ export default function Home() {
   }, [currentUser, router]);
 
   if (currentUser) return null;
-
-
   
   return <LoginPage />;
 }
