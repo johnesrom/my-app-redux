@@ -20,5 +20,9 @@ export default function AuthProvider({children} : {children: React.ReactNode}) {
         
     }, [currentUser, router]);
 
+    console.log(currentUser);
+
+    // if (load) return <div>Loading...</div>; // Uncomment if you want to show a loading state
+
     return <>{children}</>;
 }
