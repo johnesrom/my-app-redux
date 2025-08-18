@@ -20,5 +20,10 @@ export default function AuthProvider({children} : {children: React.ReactNode}) {
 
     console.log("AuthProvider currentUser:", currentUser);
 
+    // Render nothing while checking auth state
+    if (currentUser === undefined) {
+        return null;
+    }
+
     return <>{children}</>;
 }
