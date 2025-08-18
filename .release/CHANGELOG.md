@@ -1,3 +1,10 @@
+## 1.0.0-frontend-dev.3 (2025-08-18)
+
+* Merge pull request #2 from johnesrom/fix/refactor ([6822d1d](https://github.com/johnesrom/my-app-redux/commit/6822d1d)), closes [#2](https://github.com/johnesrom/my-app-redux/issues/2)
+* fix: adicionado log ([73f1674](https://github.com/johnesrom/my-app-redux/commit/73f1674))
+* fix: adicionado logica ([e125623](https://github.com/johnesrom/my-app-redux/commit/e125623))
+* fix: deletado comentario ([071a5f3](https://github.com/johnesrom/my-app-redux/commit/071a5f3))
+
 ## 1.0.0-frontend-dev.2 (2025-08-18)
 
 * Merge branch 'dev' of https://github.com/johnesrom/my-app-redux into dev ([85d8dd2](https://github.com/johnesrom/my-app-redux/commit/85d8dd2))
