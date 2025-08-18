@@ -1,3 +1,16 @@
+## 1.0.0-frontend-dev.5 (2025-08-18)
+
+* feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
+* feat: ajustado para gerar versao apenas para pull request ([c5b6b2f](https://github.com/johnesrom/my-app-redux/commit/c5b6b2f))
+* feat: ajustado para gerar versao apenas para pull request ([1d8c11e](https://github.com/johnesrom/my-app-redux/commit/1d8c11e))
+* feat: ajustado para gerar versao apenas para pull request ([73665d0](https://github.com/johnesrom/my-app-redux/commit/73665d0))
+* feat: corrigido release.yml ([a558ba2](https://github.com/johnesrom/my-app-redux/commit/a558ba2))
+* Merge branch 'feat/adicionar-log' of https://github.com/johnesrom/my-app-redux into dev ([c019ff0](https://github.com/johnesrom/my-app-redux/commit/c019ff0))
+* Merge branch 'homol' into dev ([35fec31](https://github.com/johnesrom/my-app-redux/commit/35fec31))
+* Merge pull request #1 from johnesrom/fix/refactor ([6a354d0](https://github.com/johnesrom/my-app-redux/commit/6a354d0)), closes [#1](https://github.com/johnesrom/my-app-redux/issues/1)
+* Merge pull request #3 from johnesrom/dev ([9e2644d](https://github.com/johnesrom/my-app-redux/commit/9e2644d)), closes [#3](https://github.com/johnesrom/my-app-redux/issues/3)
+* Merge pull request #5 from johnesrom/feat/adicionar-log ([c8e5d02](https://github.com/johnesrom/my-app-redux/commit/c8e5d02)), closes [#5](https://github.com/johnesrom/my-app-redux/issues/5)
+* chore(release): 1.0.0-frontend-homol.1 [skip ci] ([7cb21d4](https://github.com/johnesrom/my-app-redux/commit/7cb21d4))
 
 ## 1.0.0-frontend-dev.4 (2025-08-18)
 
