@@ -1,18 +1,18 @@
 name: Release
 
 on:
-    # push:
-    #   branches:
-    #     - dev
-    #     - homol
-    #     - main
-    #     - "+([0-9])?(.{+([0-9]),x}).x"
-  pull_request:
-    branches:
-      - dev
-      - homol
-      - main
-      - "+([0-9])?(.{+([0-9]),x}).x"
+    push:
+      branches:
+        - dev
+        - homol
+        - main
+        - "+([0-9])?(.{+([0-9]),x}).x"
+  # pull_request:
+  #   branches:
+  #     - dev
+  #     - homol
+  #     - main
+  #     - "+([0-9])?(.{+([0-9]),x}).x"
   
   release:
     types: [published, prereleased]
