@@ -1,3 +1,21 @@
+## 1.0.0-frontend-homol.2 (2025-08-18)
+
+* Merge branch 'dev' into feat/adicionar-log ([49b2edc](https://github.com/johnesrom/my-app-redux/commit/49b2edc))
+* Merge branch 'dev' of https://github.com/johnesrom/my-app-redux into homol ([7fae17e](https://github.com/johnesrom/my-app-redux/commit/7fae17e))
+* Merge branch 'feat/adicionar-log' of https://github.com/johnesrom/my-app-redux into dev ([c019ff0](https://github.com/johnesrom/my-app-redux/commit/c019ff0))
+* Merge branch 'homol' into dev ([35fec31](https://github.com/johnesrom/my-app-redux/commit/35fec31))
+* Merge pull request #4 from johnesrom/feat/adicionar-log ([10ac44d](https://github.com/johnesrom/my-app-redux/commit/10ac44d)), closes [#4](https://github.com/johnesrom/my-app-redux/issues/4)
+* Merge pull request #5 from johnesrom/feat/adicionar-log ([c8e5d02](https://github.com/johnesrom/my-app-redux/commit/c8e5d02)), closes [#5](https://github.com/johnesrom/my-app-redux/issues/5)
+* Merge pull request #6 from johnesrom/dev ([8dc9cf0](https://github.com/johnesrom/my-app-redux/commit/8dc9cf0)), closes [#6](https://github.com/johnesrom/my-app-redux/issues/6)
+* chore(release): 1.0.0-frontend-dev.4 [skip ci] ([0a0400d](https://github.com/johnesrom/my-app-redux/commit/0a0400d))
+* chore(release): 1.0.0-frontend-dev.5 [skip ci] ([ed17664](https://github.com/johnesrom/my-app-redux/commit/ed17664))
+* feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
+* feat: adicionar console.log ([8deb14a](https://github.com/johnesrom/my-app-redux/commit/8deb14a))
+* feat: ajustado para gerar versao apenas para pull request ([c5b6b2f](https://github.com/johnesrom/my-app-redux/commit/c5b6b2f))
+* feat: ajustado para gerar versao apenas para pull request ([1d8c11e](https://github.com/johnesrom/my-app-redux/commit/1d8c11e))
+* feat: ajustado para gerar versao apenas para pull request ([73665d0](https://github.com/johnesrom/my-app-redux/commit/73665d0))
+* feat: corrigido release.yml ([a558ba2](https://github.com/johnesrom/my-app-redux/commit/a558ba2))
+
 ## 1.0.0-frontend-dev.5 (2025-08-18)
 
 * feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
