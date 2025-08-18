@@ -1,3 +1,8 @@
+## 1.0.0-frontend-homol.4 (2025-08-18)
+
+* Merge branch 'homol' of https://github.com/johnesrom/my-app-redux into homol ([2afe30b](https://github.com/johnesrom/my-app-redux/commit/2afe30b))
+* feat: teste ([b0152c3](https://github.com/johnesrom/my-app-redux/commit/b0152c3))
+
 ## 1.0.0-frontend-homol.3 (2025-08-18)
 
 * Merge branch 'dev' of https://github.com/johnesrom/my-app-redux into homol ([c9e1a09](https://github.com/johnesrom/my-app-redux/commit/c9e1a09))
