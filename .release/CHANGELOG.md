@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## 1.0.0-frontend-homol.4 (2025-08-18)
 
 * Merge branch 'homol' of https://github.com/johnesrom/my-app-redux into homol ([2afe30b](https://github.com/johnesrom/my-app-redux/commit/2afe30b))
@@ -28,6 +29,12 @@
 * feat: corrigido release.yml ([a558ba2](https://github.com/johnesrom/my-app-redux/commit/a558ba2))
 
 =======
+=======
+## 1.0.0-frontend-dev.7 (2025-08-18)
+
+* feat: teste ([1516878](https://github.com/johnesrom/my-app-redux/commit/1516878))
+
+>>>>>>> 7a513bbe2a17e4bce2f21ae5804883a0c8b7cf2c
 ## 1.0.0-frontend-dev.6 (2025-08-18)
 
 * feat: teste ([64c6ff6](https://github.com/johnesrom/my-app-redux/commit/64c6ff6))
