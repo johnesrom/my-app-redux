@@ -1,3 +1,9 @@
+## 1.0.0-frontend-dev.4 (2025-08-18)
+
+* Merge branch 'dev' into feat/adicionar-log ([49b2edc](https://github.com/johnesrom/my-app-redux/commit/49b2edc))
+* Merge pull request #4 from johnesrom/feat/adicionar-log ([10ac44d](https://github.com/johnesrom/my-app-redux/commit/10ac44d)), closes [#4](https://github.com/johnesrom/my-app-redux/issues/4)
+* feat: adicionar console.log ([8deb14a](https://github.com/johnesrom/my-app-redux/commit/8deb14a))
+
 ## 1.0.0-frontend-dev.3 (2025-08-18)
 
 * Merge pull request #2 from johnesrom/fix/refactor ([6822d1d](https://github.com/johnesrom/my-app-redux/commit/6822d1d)), closes [#2](https://github.com/johnesrom/my-app-redux/issues/2)
