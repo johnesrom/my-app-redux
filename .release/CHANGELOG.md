@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 1.0.0-frontend-homol.4 (2025-08-18)
 
 * Merge branch 'homol' of https://github.com/johnesrom/my-app-redux into homol ([2afe30b](https://github.com/johnesrom/my-app-redux/commit/2afe30b))
@@ -26,6 +27,12 @@
 * feat: ajustado para gerar versao apenas para pull request ([73665d0](https://github.com/johnesrom/my-app-redux/commit/73665d0))
 * feat: corrigido release.yml ([a558ba2](https://github.com/johnesrom/my-app-redux/commit/a558ba2))
 
+=======
+## 1.0.0-frontend-dev.6 (2025-08-18)
+
+* feat: teste ([64c6ff6](https://github.com/johnesrom/my-app-redux/commit/64c6ff6))
+
+>>>>>>> 1516878d298deb6f5849b87f9a35ad56d4b537fe
 ## 1.0.0-frontend-dev.5 (2025-08-18)
 
 * feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
