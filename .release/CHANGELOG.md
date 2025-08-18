@@ -1,3 +1,7 @@
+## 1.0.0-frontend-dev.6 (2025-08-18)
+
+* feat: teste ([64c6ff6](https://github.com/johnesrom/my-app-redux/commit/64c6ff6))
+
 ## 1.0.0-frontend-dev.5 (2025-08-18)
 
 * feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
