@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## 1.0.0 (2025-08-18)
 
 * Initial commit from Create Next App ([3035e06](https://github.com/johnesrom/my-app-redux/commit/3035e06))
@@ -36,6 +37,13 @@
 * fix: deletado comentario ([071a5f3](https://github.com/johnesrom/my-app-redux/commit/071a5f3))
 * fix: removido variaveis nao utilizadas ([26d977b](https://github.com/johnesrom/my-app-redux/commit/26d977b))
 * fix: teste ([ad26cb7](https://github.com/johnesrom/my-app-redux/commit/ad26cb7))
+=======
+<<<<<<< HEAD
+## 1.0.0-frontend-homol.4 (2025-08-18)
+
+* Merge branch 'homol' of https://github.com/johnesrom/my-app-redux into homol ([2afe30b](https://github.com/johnesrom/my-app-redux/commit/2afe30b))
+* feat: teste ([b0152c3](https://github.com/johnesrom/my-app-redux/commit/b0152c3))
+>>>>>>> ffe90151d0d3c8e40baa7712d2836de8a26b7bdf
 
 ## 1.0.0-frontend-homol.3 (2025-08-18)
 
@@ -60,6 +68,12 @@
 * feat: ajustado para gerar versao apenas para pull request ([73665d0](https://github.com/johnesrom/my-app-redux/commit/73665d0))
 * feat: corrigido release.yml ([a558ba2](https://github.com/johnesrom/my-app-redux/commit/a558ba2))
 
+=======
+## 1.0.0-frontend-dev.6 (2025-08-18)
+
+* feat: teste ([64c6ff6](https://github.com/johnesrom/my-app-redux/commit/64c6ff6))
+
+>>>>>>> 1516878d298deb6f5849b87f9a35ad56d4b537fe
 ## 1.0.0-frontend-dev.5 (2025-08-18)
 
 * feat: add push trigger ([387a4ed](https://github.com/johnesrom/my-app-redux/commit/387a4ed))
