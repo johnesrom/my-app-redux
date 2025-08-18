@@ -1,14 +1,11 @@
 branches:
   - name: main
     channel: latest
-  # ramos de manutenção: 1.x, 2.x, etc.
   - name: "+([0-9])?(.{+([0-9]),x}).x"
     channel: latest
-  # pré-release de homologação (ex.: v1.2.3-frontend-homol.1)
   - name: homol
     channel: frontend-homol
     prerelease: frontend-homol
-  # pré-release de dev (ex.: v1.2.3-frontend-dev.1)
   - name: dev
     channel: frontend-dev
     prerelease: frontend-dev
@@ -28,7 +25,6 @@ plugins:
           release: false
         - type: chore
           release: false
-        # exemplo: build gera patch (opcional)
         - type: build
           release: patch
   - - "@semantic-release/release-notes-generator"
