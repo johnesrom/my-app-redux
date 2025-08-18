@@ -1,6 +1,6 @@
 {
   "name": "release",
-  "version": "1.0.0-frontend-homol.2",
+  "version": "1.0.0-frontend-homol.3",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
