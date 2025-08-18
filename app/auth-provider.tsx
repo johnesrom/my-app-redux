@@ -6,8 +6,6 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
 export default function AuthProvider({children} : {children: React.ReactNode}) {
-
-
     const router = useRouter();
     const { currentUser } = useSelector((state: RootState) => state.userReducer);
     
@@ -19,6 +17,8 @@ export default function AuthProvider({children} : {children: React.ReactNode}) {
         }
         
     }, [currentUser, router]);
+
+    console.log("AuthProvider currentUser:", currentUser);
 
     return <>{children}</>;
 }
