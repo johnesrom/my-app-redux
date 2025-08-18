@@ -12,7 +12,7 @@ export default function Home() {
   console.log(currentUser);
   useEffect(() => {
     if (currentUser) {
-      router.replace("/dashboard"); // replace evita voltar pra home ao apertar "voltar"
+      router.replace("/dashboard");
     }
   }, [currentUser, router]);
 
