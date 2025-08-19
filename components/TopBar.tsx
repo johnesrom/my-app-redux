@@ -5,10 +5,7 @@ import { useUser } from "@/hooks/useUser";
 export function Topbar() {
 
   const { currentUser } = useUser();
-  
 
-
-  
   return (
     <header className="bg-cyan-600 text-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
