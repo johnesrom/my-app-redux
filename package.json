@@ -1,6 +1,10 @@
 {
   "name": "my-app-redux",
+<<<<<<< HEAD
   "version": "1.0.1",
+=======
+  "version": "0.0.0",
+>>>>>>> 30d445dcd4a9e4ce6d3287a8952276652d485607
   "private": true,
   "scripts": {
     "dev": "next dev",

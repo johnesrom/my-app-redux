@@ -15,7 +15,7 @@ export default function DashboardPage() {
         <h2 className="text-2xl font-bold mb-4">Bem-vindo ao Dashboard! {currentUser} </h2>
         <p className="text-gray-700"> 
           Esta é uma tela simples de dashboard.  
-          Aqui você pode adicionar cards, gráficos ou tabelas futuramente.
+          Aqui você pode adicionar cards, gráficos ou tabelas futuramente ou o que tiver necessidade.
         </p>
       </main>
     </div>
