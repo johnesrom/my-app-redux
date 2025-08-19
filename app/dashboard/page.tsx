@@ -17,6 +17,8 @@ export default function DashboardPage() {
         <p className="text-gray-700"> 
           Esta é uma tela simples de dashboard.  
           Aqui você pode adicionar cards, gráficos ou tabelas futuramente.
+
+          
         </p>
       </main>
     </div>
