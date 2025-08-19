@@ -1,0 +1,35 @@
+name: Sync branches with main
+
+on:
+  push:
+    branches:
+      - main  # só roda quando houver release/merge na main
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge main -> dev
+        run: |
+          git fetch origin
+          git checkout dev
+          git merge origin/main --no-edit || echo "Nada para mesclar"
+          git push origin dev
+
+      - name: Merge main -> homol
+        run: |
+          git fetch origin
+          git checkout homol
+          git merge origin/main --no-edit || echo "Nada para mesclar"
+          git push origin homol
