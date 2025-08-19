@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main  # só roda quando houver release/merge na main
-      
+
 permissions:
   contents: write
 
@@ -26,15 +26,21 @@ jobs:
       - name: Merge main -> dev
         run: |
           git fetch origin
-          git checkout dev
+          if git show-ref --verify --quiet refs/remotes/origin/dev; then
+            git checkout dev
+          else
+            git checkout -b dev origin/main
+          fi
           git merge origin/main --no-edit || echo "Nada para mesclar"
           git push origin dev
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }} HEAD:dev
 
       - name: Merge main -> homol
         run: |
           git fetch origin
-          git checkout homol
+          if git show-ref --verify --quiet refs/remotes/origin/homol; then
+            git checkout homol
+          else
+            git checkout -b homol origin/main
+          fi
           git merge origin/main --no-edit || echo "Nada para mesclar"
           git push origin homol
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }} HEAD:homol
