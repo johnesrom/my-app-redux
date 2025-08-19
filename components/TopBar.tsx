@@ -15,8 +15,6 @@ export function Topbar() {
           <a href="/login" className="hover:underline"> {currentUser ? "Sair" : "Logar"}</a>
         </nav>
       </div>
-
-      
     </header>
   )
 }
