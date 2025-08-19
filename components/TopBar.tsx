@@ -1,13 +1,10 @@
 "use client"
 
-import { RootState } from "@/redux/store";
-import { useSelector } from "react-redux"
+import { useUser } from "@/hooks/useUser";
 
 export function Topbar() {
 
-  const { currentUser } = useSelector((state: RootState) => state.userReducer);
-
-
+  const { currentUser } = useUser();
   
   return (
     <header className="bg-cyan-600 text-white shadow-md">
