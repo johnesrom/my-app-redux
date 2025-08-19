@@ -18,9 +18,6 @@ export default function DashboardPage() {
           Esta é uma tela simples de dashboard.  
           Aqui você pode adicionar cards, gráficos ou tabelas futuramente.
         </p>
-
-
-        
       </main>
     </div>
   )
