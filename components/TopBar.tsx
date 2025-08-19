@@ -16,7 +16,5 @@ export function Topbar() {
         </nav>
       </div>
     </header>
-
-    
   )
 }
