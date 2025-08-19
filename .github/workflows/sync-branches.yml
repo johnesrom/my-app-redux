@@ -26,6 +26,7 @@ jobs:
           git checkout dev
           git merge origin/main --no-edit || echo "Nada para mesclar"
           git push origin dev
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }} HEAD:dev
 
       - name: Merge main -> homol
         run: |
@@ -33,3 +34,4 @@ jobs:
           git checkout homol
           git merge origin/main --no-edit || echo "Nada para mesclar"
           git push origin homol
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }} HEAD:homol
