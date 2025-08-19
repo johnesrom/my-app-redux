@@ -1,8 +1,6 @@
 "use client"
 
-import { useSelector } from "react-redux";
 import { Topbar } from "../../components/TopBar"
-import { RootState } from "@/redux/store";
 import { useUser } from "@/hooks/useUser";
 
 export default function DashboardPage() {
