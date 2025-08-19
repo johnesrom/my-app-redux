@@ -1,46 +1,14 @@
 branches:
   - name: main
     channel: latest
+  - name: "+([0-9])?(.{+([0-9]),x}).x"
+    channel: latest
   - name: homol
     channel: frontend-homol
     prerelease: frontend-homol
-    plugins:
-      - - "@semantic-release/commit-analyzer"
-        - preset: conventionalcommits
-          releaseRules:
-            - type: feat
-              release: minor
-            - type: fix
-              release: patch
-            - type: chore
-              release: false
-            - type: docs
-              release: false
-            - type: style
-              release: false
-            - type: test
-              release: false
-            - type: ci
-              release: false
-            - type: build
-              release: false
-      - - "@semantic-release/release-notes-generator"
-        - preset: conventionalcommits
-      - - "@semantic-release/npm"
-        - npmPublish: false
-      - "@semantic-release/github"
-
   - name: dev
     channel: frontend-dev
     prerelease: frontend-dev
-    plugins:
-      - - "@semantic-release/commit-analyzer"
-        - preset: conventionalcommits
-      - - "@semantic-release/release-notes-generator"
-        - preset: conventionalcommits
-      - - "@semantic-release/npm"
-        - npmPublish: false
-      - "@semantic-release/github"
 
 tagFormat: "v${version}"
 ci: true
@@ -67,15 +35,40 @@ plugins:
           release: false
   - - "@semantic-release/release-notes-generator"
     - preset: conventionalcommits
+      presetConfig:
+        types:
+          - type: feat
+            section: Features
+          - type: fix
+            section: Bug Fixes
+          - type: refactor
+            section: Refactor
+          - type: perf
+            section: Performance
+          - type: build
+            section: Build
+          - type: ci
+            section: CI
+          - type: chore
+            section: Chore
+          - type: docs
+            section: Docs
+          - type: test
+            section: Tests
+      writerOpts:
+        noteKeywords:
+          - BREAKING CHANGE
+          - BREAKING CHANGES
+          - BREAKING
+        commitsSort:
+          - type
+          - scope
+          - subject
   - - "@semantic-release/npm"
     - npmPublish: false
   - - "@semantic-release/git"
     - assets:
         - CHANGELOG.md
-        - package.json
-        - pnpm-lock.yaml
-        - yarn.lock
-        - package-lock.json
       message: |
         release: ${nextRelease.version} [skip ci]
 
