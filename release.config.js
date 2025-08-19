@@ -1,8 +1,8 @@
 module.exports = {
   branches: [
     { name: "main" },
-    { name: "homol", channel: "frontend-homol", prerelease: "frontend-homol" },
-    { name: "dev", channel: "frontend-dev", prerelease: "frontend-dev" },
+    { name: "homol", channel: "frontend-homol", prerelease: true },
+    { name: "dev", channel: "frontend-dev", prerelease: true },
   ],
   tagFormat: "v${version}",
   ci: true,
