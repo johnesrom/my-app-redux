@@ -1,26 +1,16 @@
 module.exports = {
   branches: [
-    { name: "main", channel: "latest" },
+    { name: "main" },
     { name: "homol", channel: "frontend-homol", prerelease: "frontend-homol" },
     { name: "dev", channel: "frontend-dev", prerelease: "frontend-dev" },
   ],
-
-  // Aqui definimos o formato da tag de acordo com a branch
-  tagFormat: ({ branch, version }) =>
-    branch.channel && branch.channel !== "latest"
-      ? `v${version}-${branch.channel}`
-      : `v${version}`,
-
+  tagFormat: "v${version}",
   ci: true,
-
   plugins: [
     [
       "@semantic-release/commit-analyzer",
       {
         preset: "conventionalcommits",
-        parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
-        },
         releaseRules: [
           { type: "feat", release: "minor" },
           { type: "fix", release: "patch" },
