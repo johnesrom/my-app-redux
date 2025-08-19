@@ -1,10 +1,6 @@
 {
   "name": "my-app-redux",
-<<<<<<< HEAD
-  "version": "1.0.0-frontend-homol.6",
-=======
-  "version": "1.0.0-frontend-dev.5",
->>>>>>> 907ff20355d870cefe68d3386097afd4eda01739
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
